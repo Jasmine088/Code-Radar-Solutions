@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+void main(){
     str s:
     scanf("%s",&s);
     printf("You enetered: %s",s);
