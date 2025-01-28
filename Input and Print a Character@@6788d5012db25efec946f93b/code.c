@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main(){
-    char s:
-    scanf("%c",&s);
-    printf("You enetered: %c",s);
+    char str[20]:
+    scanf("%c",&str);
+    printf("You enetered: %c",str);
     }
