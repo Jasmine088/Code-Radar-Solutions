@@ -3,12 +3,10 @@
 int main(){
     int j,k;
     scanf("%d%d",&j,&k);
-    if((a==b)||(a>b)){
+    if(j>=k){
         printf("Yes");
     }
-    else {
+    else{
         printf("No");
     }
-    
-
 }
