@@ -10,7 +10,7 @@ int main(){
 
 
     }
-    else if((70<=a) &&(a<80){
+    else if((70<=a) &&(a<80)){
         printf("c");
 
     }
