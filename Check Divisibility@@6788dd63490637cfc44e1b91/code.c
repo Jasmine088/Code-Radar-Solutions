@@ -4,9 +4,9 @@ int main(){
     int j;
     scanf("%d",&j);
     if((j%5==0) && (j%11==0)){
-        printf("Dividible");}
+        printf("Divisible");}
     else{
-        printf("Not Disible");
+        printf("Not Divisible");
     }
     
 }
