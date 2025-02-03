@@ -10,7 +10,7 @@ int main(){
         printf("Profit");
     }
 
-    else{
+    else if(a==b){
         printf("Profit No LOss");
     }
 }
