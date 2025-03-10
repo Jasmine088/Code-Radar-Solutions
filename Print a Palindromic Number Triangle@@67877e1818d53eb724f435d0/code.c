@@ -2,7 +2,7 @@
 int main(){
     int i,j,k,space,a;
     scanf("%d",&k);
-    for(i=1;<=k,i++){
+    for(i=1;i<=k,i++){
         for(space=1;space<=k-i;space++){
             printf(" ");
         }
@@ -15,5 +15,6 @@ int main(){
             printf("%d",b);
             b--;
         }
+        printf("\n");
     }
 }
