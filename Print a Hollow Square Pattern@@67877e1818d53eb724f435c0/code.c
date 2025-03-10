@@ -2,18 +2,18 @@
 
 
 int main() {
-    int number;
-    scanf("%d",&number);
-    for (int i=1;i<=number;i++){
-        for (int j =1;j<=number;j++){
-            if (i==1 || j==1 || i==number || j==number){
+    int i,j,side;
+    scanf("%d",&side);
+    for(i=1;i<=side;i++){
+        for(j=1;j<=side;j++){
+            if(i==1||i==side || j==1 || j==side){
                 printf("*");
             }
             else{
                 printf(" ");
             }
         }
-        printf("\n");
+       
     }
-    return 0;
 }
+   
