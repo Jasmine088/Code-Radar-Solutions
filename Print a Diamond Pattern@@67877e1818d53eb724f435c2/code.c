@@ -11,7 +11,7 @@ int main(){
         }
         printf("\n");
     }
-    for(i=k-1;i<=1;i--){
+    for(i=k-1;i>=1;i--){
         for(space=1;space<=k-i;space++){
             printf(" ");
         }
