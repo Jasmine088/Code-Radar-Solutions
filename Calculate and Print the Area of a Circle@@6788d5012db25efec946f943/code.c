@@ -3,6 +3,6 @@
 int main(){
     double r,area;
     scanf("%lf",&r);
-    area= M_PI * (r**2);
+    area= M_PI * r*r;
     printf("Area: %.2lf",area);
 }
