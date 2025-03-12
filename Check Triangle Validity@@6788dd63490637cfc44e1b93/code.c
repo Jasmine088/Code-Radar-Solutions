@@ -4,10 +4,10 @@ int main(){
     if(a+b>=c){
         printf("%s","Valid");
     }
-    elif(b+c>=a){
+    else if(b+c>=a){
         printf("%s","Valid");
     }
-    elif(a+c>=b){
+    else if(a+c>=b){
         printf("%s","Valid");
     }
     else{
