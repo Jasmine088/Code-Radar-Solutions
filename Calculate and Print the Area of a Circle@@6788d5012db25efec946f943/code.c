@@ -4,5 +4,5 @@ int main(){
     int r,area;
     scanf("%d",&r);
     area=M_PI*r*r;
-    printf("Area: %.2d",area);
+    printf("Area: %.2f",area);
 }
